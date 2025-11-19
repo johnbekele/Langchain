@@ -4,9 +4,7 @@ from langchain.agents import create_agent
 import requests
 import json
 
-# API Keys
-WEATHER_API_KEY = "b5eea87bf3f58faeaaaca0fa442a5abd"
-GEMINI_API_KEY = "AIzaSyByTXGB2hWKn0SYSwNKdJHNW5ybbQ3yLBU"
+
 
 @tool
 def get_weather(city: str) -> str:
